@@ -13,8 +13,7 @@ function MainContent() {
         Welcome to My Page
       </h2>
       <p style={{ textAlign: "justify", lineHeight: "1.6" }}>
-        This is the main content area where I talk about my favorite places,
-        experiences, and fun facts. Stay tuned for more exciting updates!
+        I love to visit New York, Paris, and Tokyo.
       </p>
     </main>
   );
