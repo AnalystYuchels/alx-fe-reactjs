@@ -1,26 +1,17 @@
-import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
-import RecipeList from "./components/RecipeList";
-import RecipeDetail from "./components/RecipeDetail";
-import AddRecipeForm from "./components/AddRecipeForm";
+import RecipeList from './components/RecipeList';
+import AddRecipeForm from './components/AddRecipeForm';
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/RecommendationsList';
 
 function App() {
-  const [recipes, setRecipes] = useState([]);
-
-  const addRecipe = (recipe) => {
-    setRecipes([...recipes, { id: recipes.length + 1, ...recipe }]);
-  };
-
   return (
-    <>
+    <div>
       <h1>Recipe Sharing App</h1>
-      <AddRecipeForm onAddRecipe={addRecipe} />
-
-      <Routes>
-        <Route path="/" element={<RecipeList recipes={recipes} />} />
-        <Route path="/recipe/:id" element={<RecipeDetail recipes={recipes} />} />
-      </Routes>
-    </>
+      <AddRecipeForm />
+      <RecipeList />
+      <FavoritesList />
+      <RecommendationsList />
+    </div>
   );
 }
 
