@@ -3,6 +3,15 @@ import create from 'zustand';
 export const useRecipeStore = create((set) => ({
   recipes: [],
 
+  // Add a single recipe
+  addRecipe: (recipe) =>
+    set((state) => ({
+      recipes: [...state.recipes, recipe],
+    })),
+
+  // Replace the entire recipes array
+  setRecipes: (recipes) => set({ recipes }),
+
   // Favorites
   favorites: [],
   addFavorite: (recipeId) =>
