@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Search from "./Search";
-import { searchUsers } from "./githubService";
+import Search from "./components/Search";
+import { searchUsers } from "./services/githubService";
 
 export default function App() {
   const [users, setUsers] = useState([]);
