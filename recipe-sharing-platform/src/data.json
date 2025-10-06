@@ -3,18 +3,30 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/300"
+    "image": "https://via.placeholder.com/300x200?text=Carbonara"
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/300"
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+    "image": "https://via.placeholder.com/300x200?text=Tikka+Masala"
   },
   {
     "id": 3,
     "title": "Avocado Toast",
-    "summary": "Crispy toast topped with creamy avocado, a sprinkle of salt, and chili flakes.",
-    "image": "https://via.placeholder.com/300"
+    "summary": "Crispy toasted bread topped with creamy smashed avocado, olive oil, and a sprinkle of chili flakes.",
+    "image": "https://via.placeholder.com/300x200?text=Avocado+Toast"
+  },
+  {
+    "id": 4,
+    "title": "Beef Stroganoff",
+    "summary": "Tender strips of beef cooked in a rich, creamy mushroom sauce, served over noodles or rice.",
+    "image": "https://via.placeholder.com/300x200?text=Beef+Stroganoff"
+  },
+  {
+    "id": 5,
+    "title": "Greek Salad",
+    "summary": "A refreshing mix of cucumber, tomato, red onion, feta cheese, and olives tossed with olive oil.",
+    "image": "https://via.placeholder.com/300x200?text=Greek+Salad"
   }
 ]
