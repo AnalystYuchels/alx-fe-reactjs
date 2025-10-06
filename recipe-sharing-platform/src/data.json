@@ -3,30 +3,112 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/300x200?text=Carbonara"
+    "image": "https://via.placeholder.com/300x200?text=Carbonara",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 eggs",
+      "50g grated parmesan",
+      "Freshly ground black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Bring a pot of salted water to a boil and cook spaghetti until al dente.",
+      "Fry pancetta in a pan until crispy.",
+      "Whisk eggs with grated parmesan in a bowl.",
+      "Drain pasta and quickly mix with pancetta and egg mixture off the heat.",
+      "Season with black pepper and serve with extra parmesan."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
-    "image": "https://via.placeholder.com/300x200?text=Tikka+Masala"
+    "image": "https://via.placeholder.com/300x200?text=Tikka+Masala",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "1 cup plain yogurt",
+      "2 tbsp tikka masala paste",
+      "1 onion, chopped",
+      "2 cups tomato puree",
+      "1/2 cup cream",
+      "2 tbsp butter",
+      "Spices: cumin, coriander, garam masala"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and tikka paste for at least 1 hour.",
+      "Grill or pan-fry chicken until lightly charred.",
+      "Sauté onion in butter until golden.",
+      "Add tomato puree and spices, simmer for 10 minutes.",
+      "Stir in cream and cooked chicken, simmer for 5 minutes.",
+      "Serve hot with rice or naan bread."
+    ]
   },
   {
     "id": 3,
     "title": "Avocado Toast",
     "summary": "Crispy toasted bread topped with creamy smashed avocado, olive oil, and a sprinkle of chili flakes.",
-    "image": "https://via.placeholder.com/300x200?text=Avocado+Toast"
+    "image": "https://via.placeholder.com/300x200?text=Avocado+Toast",
+    "ingredients": [
+      "2 slices whole-grain bread",
+      "1 ripe avocado",
+      "1 tbsp olive oil",
+      "Salt and pepper",
+      "Chili flakes (optional)",
+      "Lemon juice"
+    ],
+    "instructions": [
+      "Toast the bread slices until golden and crispy.",
+      "Mash avocado with olive oil, lemon juice, salt, and pepper.",
+      "Spread avocado mixture evenly on the toast.",
+      "Sprinkle with chili flakes if desired.",
+      "Serve immediately."
+    ]
   },
   {
     "id": 4,
     "title": "Beef Stroganoff",
     "summary": "Tender strips of beef cooked in a rich, creamy mushroom sauce, served over noodles or rice.",
-    "image": "https://via.placeholder.com/300x200?text=Beef+Stroganoff"
+    "image": "https://via.placeholder.com/300x200?text=Beef+Stroganoff",
+    "ingredients": [
+      "500g beef strips",
+      "1 onion, sliced",
+      "200g mushrooms, sliced",
+      "1 cup beef broth",
+      "1/2 cup sour cream",
+      "2 tbsp flour",
+      "2 tbsp butter",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season beef with salt and pepper, then sear until browned. Remove from pan.",
+      "Sauté onions and mushrooms in butter until softened.",
+      "Sprinkle flour, then stir in beef broth to make a sauce.",
+      "Return beef to pan, simmer for 10 minutes.",
+      "Stir in sour cream before serving.",
+      "Serve over noodles or rice."
+    ]
   },
   {
     "id": 5,
     "title": "Greek Salad",
     "summary": "A refreshing mix of cucumber, tomato, red onion, feta cheese, and olives tossed with olive oil.",
-    "image": "https://via.placeholder.com/300x200?text=Greek+Salad"
+    "image": "https://via.placeholder.com/300x200?text=Greek+Salad",
+    "ingredients": [
+      "2 cucumbers, chopped",
+      "4 tomatoes, chopped",
+      "1 red onion, thinly sliced",
+      "200g feta cheese, cubed",
+      "1/2 cup black olives",
+      "3 tbsp olive oil",
+      "1 tbsp red wine vinegar",
+      "Oregano, salt, and pepper"
+    ],
+    "instructions": [
+      "Combine cucumber, tomatoes, onion, feta, and olives in a bowl.",
+      "Whisk olive oil, vinegar, oregano, salt, and pepper together.",
+      "Pour dressing over salad and toss gently.",
+      "Serve chilled or at room temperature."
+    ]
   }
 ]
