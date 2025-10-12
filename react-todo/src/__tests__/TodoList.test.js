@@ -1,4 +1,5 @@
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import TodoList from "../components/TodoList";
 
 test("renders initial todos", () => {
@@ -28,7 +29,6 @@ test("deletes a todo", async () => {
   const deleteButton = todo.querySelector("button");
   fireEvent.click(deleteButton);
 
-  // 👇 wait for React to finish re-rendering after setState
   await waitFor(() => {
     expect(screen.queryByText("Build a Todo App")).not.toBeInTheDocument();
   });
